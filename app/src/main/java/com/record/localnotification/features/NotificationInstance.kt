@@ -9,7 +9,7 @@ object NotificationInstance {
     fun showNotification(context: Context, description: String) {
         val notification = NotificationCompat.Builder(context, "channel_id")
             .setSmallIcon(R.drawable.ic_launcher_foreground)
-            .setContentTitle("Hello world")
+            .setContentTitle("App Name")
             .setContentText(description)
             .build()
         val notificationManager =
