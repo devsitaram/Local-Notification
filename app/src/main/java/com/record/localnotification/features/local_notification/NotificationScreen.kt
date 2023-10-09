@@ -1,4 +1,4 @@
-package com.record.localnotification.features
+package com.record.localnotification.features.local_notification
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -27,7 +27,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
-import com.record.localnotification.features.NotificationInstance.showNotification
+import com.record.localnotification.features.local_notification.NotificationInstance.showNotification
 import java.time.LocalDateTime
 import java.util.Calendar
 

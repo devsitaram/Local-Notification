@@ -1,4 +1,4 @@
-package com.record.localnotification.features
+package com.record.localnotification.features.local_notification
 
 import android.app.NotificationManager
 import android.content.Context

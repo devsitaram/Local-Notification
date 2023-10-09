@@ -66,4 +66,45 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // api image
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // navigation compose
+    implementation("androidx.compose.material:material:1.5.1")
+    implementation("androidx.navigation:navigation-compose:2.7.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.compose.material3:material3")
+    // defaults icons
+    implementation("androidx.compose.material:material-icons-extended-android:1.6.0-alpha03")
+
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.2")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.2")
+
+    // coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+
+    // activity
+    implementation("androidx.activity:activity-ktx:1.7.2")
+    implementation("androidx.activity:activity-compose:1.7.2")
+
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-common:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+
+    //compose
+    implementation("androidx.compose.ui:ui:1.6.0-alpha06")
+    implementation("androidx.compose.material:material:1.6.0-alpha06")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.6.0-alpha06")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.0-alpha06")
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.0-alpha06")
+
+    //compose navigation
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 }
